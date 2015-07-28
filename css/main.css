@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background: #47B591;
+  font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 200;
+  font-size: 1vw;
+  color: white;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+  font-family: 'Montserrat', 'Raleway', 'Helvetica Neue', 'Helvetica';
+  font-weight: 700;
+}
+
+.slash {
+  color: #FFD562;
+  font-weight: 700;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.07);
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  background: white;
+  opacity: .6;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+a:hover {
+  color: #1A614C;
+  text-shadow:none;
+}
+
+a:hover .slash {
+  transform: rotate(30deg);
+}
+
+.content-container {
+  position: absolute;
+  margin-top: 12%;
+  width: 100%;
+}
+
+.row {
+  width: 52%;
+  margin: auto;
+  text-align: left;
+}
+
+.row.name { font-size: 7.56vw; }
+
+.row.title { margin-top: .5rem; font-size: 2.73vw; }
+
+.row.skills { margin-top: 1.5rem; font-size: 3.12vw; }
+
+.row.philosophie { margin-top: 3rem; font-size: 2.8vw; }
+
+.row.chewse { margin-top: .5rem; font-size: 2.69vw; opacity: 0.7; }
+
+.row.pennypop { margin-top: .5rem; font-size: 2.58vw; opacity: 0.7; }
+
+.row.contact { margin-top: 3.5rem; font-size: 2vw; }
+
+.social-resume {
+  display: inline-block;
+  width: 20%;
+  vertical-align: super;
+}
+
+.social-mail {
+  display: inline-block;
+  text-align: right;
+  width: 20%;
+  vertical-align: super;
+}
+
+.social-links {
+  display: inline-block;
+  width: 54%;
+  vertical-align: sub;
+  text-align: center;
+}
+
+.social {
+  fill: white;
+  transition: all .5s;
+  padding: 0 5px;
+}
+
+.social:hover {
+  fill: #1A614C;
+}
